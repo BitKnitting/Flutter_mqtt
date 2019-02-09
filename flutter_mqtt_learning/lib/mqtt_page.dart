@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+// Following along to https://flutter.io/docs/cookbook/networking/fetch-data
+
 class MqttPage extends StatefulWidget {
   MqttPage({this.title});
   final String title;
@@ -16,10 +18,17 @@ class _mqttPageState extends State<MqttPage> {
         title: Text(widget.title),
       ),
       body: SafeArea(
-        child: Center(
-          child: Text('hello'),
+        child: ListView(
+          children: <Widget>[
+            RaisedButton(
+              child: new Text("Get Reading"),
+              onPressed: _getReading(),
+            ),
+          ],
         ),
       ),
     );
   }
 }
+
+_getReading() {}

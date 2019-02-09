@@ -20,5 +20,7 @@ The [io plus plan](https://io.adafruit.com/upgrade) is $10/month or $99/year:
 - 60 days of data storage  
 - Unlimited dashboards  
 - Unlimited Feeds
+## Example App
+This is SO WONDERFUL!!! shamblett has built a [working model of an mqtt client and posted on GitHub](https://github.com/shamblett/mqtt_client).  I am evolving my knowledge by studying the code and copy/pasting in what makes sense.  THANK YOU shamblett.
 
 
